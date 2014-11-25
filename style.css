@@ -3,65 +3,55 @@
 
 body {
 	background-color:#ececec;
+    font-family: 'Raleway', sans-serif;
+    margin:0;
 }
+
+
+header {
+    background-color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    box-shadow: 0px 0px 13px #aaa;
+    font-size:13px;
+    
+}
+    
+header a {
+    text-decoration:none;
+    color:#606060;
+    
+}
+
+header a:hover {
+    
+    color:#c90000;
+    
+    
+}
+    
+header li {
+    display:inline-block;
+    text-align: center;
+    width:32%;
+    
+}
+
+/* Sur n'importe quel élément html de type block ou inline-block), on peut mettre un contour (border,color), des marges intérieures (padding) et des marges extérieures (margin) */
 
 h1 {
-	font-size:12px;
-	font-family:Century Gothic, "Arial", Times, serif;
+	font-size:18px;
+    font-family: 'Raleway', sans-serif;
 	text-align:center;
     background-color:#FFF;
 	margin:auto;
 	padding:12px;
 	padding-bottom:10px;
 	width:450px;
-	font-family:Century Gothic, "Arial", Times, serif;
 	color:#606060;
-	box-shadow: 0px 0px 13px #aaa;
-
 }
 
-#enligne {
-    color:#00bcf2;
-    font-size:15px;
+.lol {
+    color:#c90000;
     
-    
-}
-
-#rouge {
-    text-color:#ff0000;
-    
-}
-    
-    
-.box {
-    font-size:12px;
-	font-family:Century Gothic, "Arial", Times, serif;
-	text-align:center;
-    background-color:#FFF;
-	margin:auto;
-	padding:12px;
-	padding-bottom:10px;
-	width:450px;
-	font-family:Century Gothic, "Arial", Times, serif;
-	color:#606060;
-	box-shadow: 0px 0px 5px #aaa;
-    
-}
-
-.bleu {
-    color:#00bcf2;
-}
-
-
-.cadre {
-	background-color:#FFF;
-	margin:auto;
-	padding:50px;
-	padding-bottom:10px;
-	text-align:align;
-	width:500px;
-	font-size:10px;
-	font-family:Century Gothic, "Arial", Times, serif;
-	color:#666;
-	box-shadow: 0px 0px 13px #aaa;
 }
