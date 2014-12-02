@@ -9,15 +9,19 @@ body {
 }
 
 main {
-    max-width: 700px;
+    max-width: 600px;
     margin:auto;
+    margin-top:50px;
+    padding:20px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 0px 13px #ccc;
 }
 
 header {
     background-color:white;
     padding-top:10px;
     padding-bottom:10px;
-    box-shadow: 0px 0px 13px #aaa;
+    box-shadow: 0px 0px 13px #ccc;
     font-size:13px;
     
 }
@@ -25,6 +29,7 @@ header {
 header a {
     text-decoration:none;
     color:#606060;
+    font-size:20px;
     
 }
 
@@ -45,10 +50,9 @@ header li {
 /* Sur n'importe quel élément html de type block ou inline-block), on peut mettre un contour (border,color), des marges intérieures (padding) et des marges extérieures (margin) */
 
 h1 {
-	font-size:18px;
+	font-size:25px;
     font-family: 'Raleway', sans-serif;
 	text-align:center;
-    background-color:#FFF;
 	margin:auto;
 	padding:12px;
 	padding-bottom:10px;
@@ -56,7 +60,5 @@ h1 {
 	color:#606060;
 }
 
-.lol {
-    color:#c90000;
-    
-}
+.rouge{ color: #C90000; }
+
