@@ -19,10 +19,12 @@ main {
 
 header {
     background-color:white;
+    margin-top:30px;
+    margin-bottom:50px;
     padding-top:10px;
     padding-bottom:10px;
     box-shadow: 0px 0px 13px #ccc;
-    font-size:13px;
+    font-size:12px;
     
 }
     
@@ -42,7 +44,7 @@ header a:hover {
     
 header li {
     display:inline-block;
-    text-align: center;
+    text-align:center;
     width:32%;
     
 }
@@ -62,3 +64,8 @@ h1 {
 
 .rouge{ color: #C90000; }
 
+.barre {
+    background-color: #EEEEEE;
+    color: #c90000;
+
+}
