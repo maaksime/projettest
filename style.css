@@ -21,11 +21,14 @@ main {
 
 header {
     background-color:white;
+<<<<<<< HEAD
     margin-bottom:50px;
+=======
+>>>>>>> parent of 123bbbd... Modif
     padding-top:10px;
     padding-bottom:10px;
     box-shadow: 0px 0px 13px #ccc;
-    font-size:12px;
+    font-size:13px;
     
 }
     
@@ -45,7 +48,7 @@ header a:hover {
     
 header li {
     display:inline-block;
-    text-align:center;
+    text-align: center;
     width:32%;
     
 }
@@ -76,11 +79,13 @@ h2 {
 
 .gris {
     color:#606060;
+    padding-right: 12%;
     
 }
 
 .rouge{ color: #C90000; }
 
+<<<<<<< HEAD
 .barre {
     background-color: #EEEEEE;
     color: #c90000;
@@ -118,3 +123,5 @@ li {
     font-size:12px;
     
 }
+=======
+>>>>>>> parent of 123bbbd... Modif
